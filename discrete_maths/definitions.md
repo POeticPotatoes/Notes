@@ -36,6 +36,7 @@ A **fallacy** is an error in reasoning that results in an invalid **argument**
 |NOT| $\lnot$|
 |OR| $\lor$|
 |AND|$\land$|
+|XOR|$\oplus$|
 |Equivalent|$\equiv$|Means that it has the same truth table|
 |Implies|$\implies, \rightarrow$| $p\rightarrow q\equiv \lnot p \lor q$
 |Not Implies|$\nrightarrow$
