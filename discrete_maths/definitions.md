@@ -73,23 +73,23 @@ $\delta$
 
 ## Laws of Logic
 #### De Morgan's Laws
-!(p&&q) $\equiv$ (!p)||(!q)  
-!(p||q) $\equiv$ (!p)&&(!q)
+$\lnot(p\land q)\equiv\lnot p\lor\lnot q$  
+$\lnot(p\lor q)\equiv\lnot p\land\lnot q$  
 
 #### Distributive Law
-p&&(p||r)=(p&&q)||(p&&r)
-p||(q&&r)=(p||q)&&(p||r)
+$p\land(q\lor r)\equiv(p\land q)\lor(p\land r)$  
+$p\lor(q\land r)\equiv(p\lor q)\land(p\land r)$  
 
 #### Double negation
-!!p = p
+$\lnot\lnot p\equiv p$
 
 #### Absorbtion
-p||(p&&q)=p
-p&&(p||q)=p
+$p\lor(p\land q)\equiv p$  
+$p\land(p\lor q)\equiv p$
 
 #### Idempotent
-p&&p=p
-p||p=p
+$p\land p\equiv p$  
+$p\lor p\equiv p$  
 
 ## Additional Terms
 A **vacuously true** proposition is **true by default**:  
