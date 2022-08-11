@@ -3,7 +3,7 @@
 ## Table of Contents
 * [Forms of business organisation](#forms-of-business-organisation)
 * [Goals of Corporation](#goals-of-corporation)
-* [Agency Problems)(#agency-problems)
+* [Agency Problems](#agency-problems)
 
 ## Forms of business organisation
 * Proprietorship: An unincorporated business owned by 1 individual
