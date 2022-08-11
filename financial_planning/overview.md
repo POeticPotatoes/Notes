@@ -17,7 +17,7 @@
 |-|-|
 | **Ease of formation, Subject to few regulations** | **Cost of set-up and report filing**
 || Management is more complex and hence there is a higher cost of set-up.
-| **No coroporate income tax** | **Pays Double Taxation**
+| **No corporate income tax** | **Pays Double Taxation**
 | Owners have only have to pay **personal income tax** | For corporations in the US, they must first pay **corporate tax** before distributing profit to owners as **dividends**. Owners then have to pay tax on their **dividend income**. <br> In Singapore, **there is no tax on most dividends** so corporations in Singapore only experience **single taxation**.
 | **Difficult to raise capital** | **Easy to raise capital**
 | Each partner and owner has **limited funds**. These organisations cannot raise funds by issuing **financial instruments** such as bonds and common stocks. | The company can raise capital by issuing **financial instruments** such as bonds or new common stocks.
@@ -31,7 +31,7 @@
 |Stock Price / Market value|Intrinsic Value
 |-|-|
 |Short-run concept|Long-run concept: Depends on firm's future performance and cash flow
-|Set by the **Marginal Investor**: the investor who makes the transaction occur.| Investors try to **estimate** the intrinsic value of a stock and my come up with different estimates, based on **best available information**.
+|Set by the **Marginal Investor**: the investor who makes the transaction occur.| Investors try to **estimate** the intrinsic value of a stock and may come up with different estimates, based on **best available information**.
 
 When a stock price is less than the intrinsic value, it is **undervalued**: It is good to buy the stock.  
 
@@ -45,7 +45,7 @@ Ideally, managers should avoid actions that reduce intrinsic value, <ins>even if
 
 Therefore, the primary financial goal of a corporation is to **maximise shareholders' wealth**, which can be translated to **maximising the intrinsic value of a stock**, which leads to **maximising the long run stock price**.
 
-> Note: The financial goal of a corporation is not to maximise **accounting profits** as an accountant includes **non-cash items** such as **depreciation expense** are included in their calculations. Therefore it is not cash; in finance, <ins> cash is king.</ins>  
+> Note: The financial goal of a corporation is not to maximise **accounting profits** as an accountant includes **non-cash items** such as **depreciation expense** in their calculations. Therefore accounting profits are not cash; in finance, <ins> cash is king.</ins>  
 >
 > Additionally, accounting profits do not take into account the **risk of cash flows** to shareholders. Most investors are **risk-averse** and do not like risk. Hence the primary financial goal of a corporation is to maximise shareholders' wealth, and not to maximise accounting profit.
 
