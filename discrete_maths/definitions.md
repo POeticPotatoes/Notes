@@ -28,7 +28,6 @@ A **counterexample** is a **critical row** where the **conclusion** is false. Th
 A **fallacy** is an error in reasoning that results in an invalid **argument**
 
 ## Symbols
-
 #### Propositional Logic	
 
 |Logic | Symbol| Notes|
