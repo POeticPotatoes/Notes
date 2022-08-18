@@ -24,3 +24,5 @@ Keywords learnt: **Abstraction, Decomposition, Pattern Recognition, Algorithm De
 **Algorithm Complexity**: Often described in Big O notation: The change in time/memory required for a program to execute against a change in input or data size. This tells us about the scalability of our algorithms
 
 **Computing Trends**: For example, the exponential growth of memory size and computing power of machines and how it affects how code is written
+
+

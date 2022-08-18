@@ -35,7 +35,10 @@ More info: <ins> McKinsey Quarterly: The Three Cs of Customer Satisfaction: Cons
 
 A well-set price level could influence customers' levels of **value and satisfaction**. Customers also carry with them **personal views or perceptions** of value that a marketer would want to cater to.
 
-Marketers aim to achieve **superior market value** even in a crowded marketplace that differentiates their product from others in the views of the customer.
+Marketers aim to achieve **superior market value** even in a crowded marketplace that differentiates their product from others in the views of the customer, hence achieving **superior customer value**.
+
+> **Cost Beyond Financial Cost**  
+> **Financial cost** is the monetary cost of purchasing an item. Other costs could include effort and time required to acquire the product, or **psychological cost** in switching from one product to another.
 
 ## Company and Marketing Strategy
 This course focuses on **Business unit, product and market level**.
@@ -69,6 +72,17 @@ In responding to a marketing environment, a factor must be considered in terms o
 * **Interaction** of different forces
 
 ### Models for the Macroenvironment
+The **Macroenvironment** refers to the **larger societal forces** that affect the **microenvironment**.
+
+#### PESTEL Model
+* **Political**
+* **Economic**
+* **Social**
+* **Legal**
+* **Environmental**
+* **Technological**
+
+#### Alternative Model (Suggested)
 * **Demographic forces**  
     Study of human populations in terms of size, density, location, age, gender, race, occupation, and other statistics
 * **Economic forces**  
@@ -81,3 +95,21 @@ In responding to a marketing environment, a factor must be considered in terms o
     Consists of laws, government agencies and various pressure groups
 * **Cultural forces**  
     Consists of institutions and other forces that affect societal values, perceptions, preferences and behaviors
+
+### Models for the Microenvironment
+The **Microenvironment** refers to the **actors** close to the company that directly affect its ability to serve its customers.
+
+#### Porter's Five Forces
+#### Alternative Model (Suggested)
+* **Company**  
+    Interrelated groups (eg. human, resource, finance)
+* **Supplies**  
+    Suppliers provide **resources** needed by the company to produce its goods and services.
+* **Marketing intermediaries**  
+    Marketing intermediares help the company to **promote, sell and distribute** its products to **final buyers**.
+* **Customers**  
+    Different customer markets include **B2C, C2B, B2B, B2G** where B(Business), C(Customer), G(Government)
+* **Competitors**  
+    Marketers must gain **strategic advantage** by positioning offerings strongly against competitors' offerings <ins> in the minds of people </ins>.
+* **Public**  
+    The public is any group that has an **actual or potential** interest in or impact on an organisation's ability to achieve its objectives.
