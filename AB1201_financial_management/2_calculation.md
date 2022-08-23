@@ -34,16 +34,31 @@ Finding the **PV** of a cash flow or series of cash flows is called **discountin
 
 **Annuity** is a series of **equal** cash flows at **fixed intervals** for a specified number of periods.
 
-**Ordinary Annuity** means that cash flows occur at the **end of the period**.
+**Ordinary Annuity** means that cash flows occur at the **end of the period**.   
+(First payment at $t=1$, last payment at $t=n$)
 
-**Annuity Due** means that cash flows occur at the **beginning of the period**.
+**Annuity Due** means that cash flows occur at the **beginning of the period**.  
+(First payment at $t=0$, last payment at $t=n-1$)
 
-$FV=\frac{PMT}{I}[(1+I)^N-1]$
+$FV=\frac{PMT}{I}[(1+I)^N-1]$  
+
+FV with PV included:  
+
+$FV = \{[(..\{[(PV + PMT_1)\times(1+I) + PMT_2]\times(1+I)\}+..)]\}$  
+$FV =PV(1+I)^n + \frac{PMT}{I}[(1+I)^N-1]$  
+$\therefore FV = FV_{PMT} + FV_{PV}$
 
 $PV=\frac{PMT}{I}[1-\frac{1}{(1+I)^N}]$
 
-This is the question of the week.
-After going through the lesson, you will be able to answer such questions.
-You are saving for retirement. You plan to retire when you reach 65 years old. To live comfortably during retirement, you plan to withdraw money from your savings account - $48,000 each year. Suppose today is your 25th birthday, and you decide, starting today and continuing on every year up to your 64th birthday, that you will put the same amount into a savings account.
+Outstanding loan can be calculated **by discounting outstanding future payments**. This can be used when calculating **principal balance** for the following month.
 
-If the interest rate is 2.4% per annum, compounded annually, how much must you set aside each year to make sure that you will have enough money in the account on your 65th birthday in order to be able to withdraw $48,000 per year when you retire and you expect to live until you are 90 years old (i.e., the first withdrawal is on your 65th birthday and the last withdrawal occurs on your 89th birthday)?
+Presentation notes
+* demonstrate subbing in of values
+* timeline interest should be shown once
+* provide conceptual explanations
+* show <ins>all cash flows even on final year </ins>
+* timeline should show year and not age
+* calculations and calculator inputs on same slide
+* timeline lines are not arrows
+* use fractions in calculation instead of rounding
+* use subscripts when required
