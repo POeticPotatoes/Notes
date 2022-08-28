@@ -1,3 +1,5 @@
+Provided Notes: https://qikunxiang.net
+
 # Mathematical Proofs
 ## Definitions
 A **mathematical proof** is a verification of a **proposition** by a chain of logical deductions from a set of **axioms**
@@ -15,13 +17,16 @@ A **predicate** is a **proposition** whose truth depends on the value of a varia
 
 A **domain** is the collection of all possible variables that a **predicate variable** may take
 
-An **argument** is a sequence of statements. 
+An **argument** is a sequence of statements (Usually ending in the ';' character).
 
-A **conclusion** is the last statement of an **argument**, and all previous statements are **premises** (or **assumptions/hypotheses**)
+A **conclusion** $\therefore$ is the last statement of an **argument**, and all previous statements are **premises** (or **assumptions/hypotheses**)
 
 A **valid argument** is an argument where the **conclusion** is true if the **premises** are true. An **argument** is only valid if and only if "the conjunction of **premises** implying the **conclusion**" is a **tautology**.
 
 A **critical row** is a row in a truth table where all **premises** are true. If in all critical rows the **conclusion** is true, the **argument** is **valid**, else it is **invalid**.
+
+ie. An argument is valid if and only if the conclusion is true in all critical rows.  
+An argument is invalid if and only if there is a critical row in which $conclusion \equiv F$.  
 
 A **counterexample** is a **critical row** where the **conclusion** is false. This invalidates an **argument**
 
@@ -90,6 +95,8 @@ $p\land(p\lor q)\equiv p$
 $p\land p\equiv p$  
 $p\lor p\equiv p$  
 
+> It is good practice to use brackets as an indication of order <ins>whenever possible</ins>.
+
 ## Additional Terms
 A **vacuously true** proposition is **true by default**:  
 if $p \rightarrow q$ and *q* is true even if *p* is false, *p* is *vacuously true*
@@ -117,3 +124,5 @@ if $p\rightarrow q$:
 |Alternative Rule of Contradiction|$(\lnot p\implies\bot)\land\bot\therefore p$
 |Dilemma|$(p\lor q)\land(p\implies r)\land(q\implies r)\therefore r$
 |Hypothetical Syllogism|$(p\implies q)\land (q\implies r)\therefore p\implies r$
+
+    These names must be mentioned when using them in exams.

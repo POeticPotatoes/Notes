@@ -12,7 +12,7 @@ An ethical theory involves a set of **principless** that are meant to apply univ
 
 We can then apply such a theory when we encounter a particular ethical issue or scenario to determine our course of action.
 
-We should <ins>pick the ethical theory that is the most reasonable and makes the most sense of our individual and collective lived experiences of our world.
+We should <ins>pick the ethical theory that is the most reasonable and makes the most sense of our individual and collective lived experiences of our world.</ins>
 (It should be the most justified and have the most explanatory power). As such, theory-led approaches must work with circumstance-led approaches for its consideration of ethical scenarios.
 
 ### Utilitarianism
@@ -28,3 +28,4 @@ A **circumstance-led approach** takes into account the information regarding an 
     * Who is acted upon by the actors
 * What
     * Aspects of a given scenario that are morally relevant
+

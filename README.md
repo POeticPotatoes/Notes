@@ -10,5 +10,8 @@ Enjoy!
 
 ## List of courses I have taken
 * **MH1812** - Discrete Math
+* **SC1003** - Introduction to Computational Thinking and Programming (The most useless one)
 * **AB1201** - Financial Management
+* **AB1501** - Marketing
 * **CC0005** - Healthy Living & Wellbeing
+* **CC0003** - Ethics and Civics in a Multicultural World
