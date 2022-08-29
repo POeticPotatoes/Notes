@@ -65,6 +65,26 @@ Companies often rely on **Financial Institutions** for capital:
 * Hedge Funds
 * Private Equity Companies
 
+### Financial Statements and Taxes
+An **annual report** is an indication of how well the company is doing. This includes:
+* Basic Financial Statements
+* Balance Sheet  
+    Provides a snapshot of a firm's **financial position** at one point in time
+* Income Statement  
+    Summarises a firm's revenues and expenses (over a given period of time)
+* Statement of Stockholders' Equity
+* Statement of Cash Flows
+> TODO: Read about Statement of Stockholders' Equity and Statement of Cash Flows from the textbook.
+
+#### Balance Sheet
+| Total Assets | Total Liabilities and Equity |
+|-|-|
+|Current Assets<br>Cash and equivalents, Accounts receivables, Inventory|Current Liabilities<br> Accrued wages and taxes, Accounts payable, Short-term borrowings|
+|Long-Term (Fixed Assets)<br>Net plant and equipment, Other long-term assets|Long-Term Debt|
+||Stockholders' Equity<br> Common Equity (Common Stock + Retained earnings) must = Total assets - Total Liabilities
+
+    Total Assets = Total Liabilities and Equity
+
 ## Determinants of Interest Rate
 
 This is the question of the week.
