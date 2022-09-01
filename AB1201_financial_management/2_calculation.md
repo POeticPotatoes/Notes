@@ -48,18 +48,14 @@ FV with PV included:
 
 $FV = \{[(..\{[(PV + PMT_1)\times(1+I) + PMT_2]\times(1+I)\}+..)]\}$  
 $FV =PV(1+I)^n + \frac{PMT}{I}[(1+I)^N-1]$  
-$\therefore FV = FV_{PMT} + FV_{PV}$
-
-In the case of **Annuity Due**, FV experiences an additional round of interest ($\times(1+I)$)
+$\th erefore FV = FV_{PMT} + FV_{PV}$
 
 In the case of **Annuity Due**, FV experiences an additional round of interest ($\times(1+I)$)
 
 $PV=\frac{PMT}{I}[1-\frac{1}{(1+I)^N}]$
 
-<<<<<<< Updated upstream
 Outstanding loan can be calculated **by discounting outstanding future payments**. This can be used when calculating **principal balance** for the following month.
 In the case of **Annuity Due**, PV experiences one more round of interest ($\times(1+I)$)
-=======
 In the case of **Annuity Due**, PV experiences one more round of interest ($\times(1+I)$)
 
 **Perpetual Annuity** is an annuity that lasts forever ($n\rightarrow\infin$)
