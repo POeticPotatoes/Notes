@@ -49,7 +49,7 @@ A **stock** is an equity instrument that gives <ins>an uncertain dividend</ins> 
 Types of Financial Markets:
 * **Physical asset markets** are for products such as computers/machines
 * **Financial asset markets** deals with **stocks, loans, notes and mortgages**.
-* **Primary markets** are the process by which companies obtain **fresh funds**, eg. selling stocks in a market for the first time.
+* **Primary markets** are the process by which companies obtain **fresh funds**, eg. selling stocks in a market for the first time. A company receives money -> Primary Market Transaction
 * **Secondary markets** are markets where **extending securities** are traded among investors.
 * **Public markets** are where **standardised contracts** are traded on **recognised exchanges**. They are differentiated from **private markets** where contracts are negotiated between two parties.
 * **Money Markets** are markets in which funds are borrowed or loaned for a short period (less than 1 year).
@@ -86,6 +86,21 @@ An **annual report** is an indication of how well the company is doing. This inc
     Total Assets = Total Liabilities and Equity
 
 ## Determinants of Interest Rate
+#### Conceptual Formula
+$r = r^* + IP + MRP + DRP + LP$
+
+Treasury securities are **assumed** to have no default risk and no liquidity risk (in a stable government)
+
+EBIT - Profit generated from business operations (or Operating Income), which is profit before deducting financing costs (e.e. interests) and tax.
+
+Interests costs are tax deductible, resulting in tax savings (known as **Interest Tax Shield**). Dividends, however, <ins>are not tax deductible</ins> (in Singapore).
+
+#### Yield Curve
+* x-axis is <ins>**maturity**</ins>, NOT time.
+* yield curves are generally <ins>upward sloping</ins> in a healthy economy. In general, the longer the company wants to borrow funds for, the higher the interest rate it has to pay.
+* All companies' debt securities have DRP and LP $\implies$ yeld curve for ALL companies lie above the Treasury Yield Curve.
+
+<hr>
 
 This is the question of the week.
 After going through the lesson, you will be able to answer such questions.
@@ -101,3 +116,4 @@ The maturity risk premium is estimated by this formula: MRP = 0.2(t-1)%.
 The liquidity premium and default risk premium for the corporate bond is estimated to be 0.3% and 0.6% respectively. 
 
 What yield would you predict for each of these two investments?
+
