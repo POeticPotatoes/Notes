@@ -72,3 +72,4 @@ eg. Google's hypertargeted ads could be an invasion of privacy and be undesirabl
 
 ### Developing a Positioning Statement
 To \_\_<ins>(target segment and need)</ins>\_\_ our \_\_<ins>(brand)</ins>\_\_ is \_\_<ins>(concept)</ins>\_\_ that \_\_<ins>(point of difference)</ins>\_\_.
+

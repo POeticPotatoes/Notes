@@ -1,5 +1,5 @@
 1. Question 1
-    1. $\exists x,y\in D, M(x,y)\land T(x,y)$
+    1. $\exists x,y\in D, (x\not =y)\land M(x,y)\land T(x,y)$
     2. $\exists x\in D, \forall y\in D, M(x,y)$
 2. Question 2
     1. There exists a student enrolled in MH1812
@@ -9,8 +9,11 @@
 3. Question 3
     1. false, x=2, y=2, z=2, P(x,y,z)=8
     2. true, x=1,y=1,z=1, P(x,y,z)=1
-    3. true, z = 1/(xy), P(x,y,z)=1
-    4. false, x != 1/(yz), P(x,y,z)!= 1
+    3. true, let x and y be arbitrary and z = 1/(xy), this gives P(x,y,z)=1, Hence $\forall x\forall y, \exists z, P(x,y,z)\equiv T$
+    4. false, x != 1/(yz), P(x,y,z)!= 1  
+        Proof by negation:  
+        $\lnot(\exists x,\forall y,\forall z, P(x,y,z))\equiv\forall x,\exists y,\exists z,\lnot p(x,y,z).$  
+        Let $x$ be arbitrary. Then, let $y=\frac{1}{x}, z=2$. This gives $xyz=2\not =1$
 4. Question 4
     1. $\exists x,y,\lnot P(x,y)$
     2. $\forall x,y,\lnot P(x,y)$
