@@ -99,12 +99,16 @@ The **Macroenvironment** refers to the **larger societal forces** that affect th
 ### Models for the Microenvironment
 The **Microenvironment** refers to the **actors** close to the company that directly affect its ability to serve its customers.
 
-#### Porter's Five Forces
+#### Porter's Five
 #### Alternative Model (Suggested)
 * **Company**  
     Interrelated groups (eg. human, resource, finance)
+    * Shoebag companies (adidas, underarmour, brands strongly associated with sport and established in Singapore)
+    * Shoe sanitizer companies (Generally smaller brands from mainland China that might be willing to collaborate)
+
 * **Supplies**  
     Suppliers provide **resources** needed by the company to produce its goods and services.
+    * 
 * **Marketing intermediaries**  
     Marketing intermediares help the company to **promote, sell and distribute** its products to **final buyers**.
 * **Customers**  

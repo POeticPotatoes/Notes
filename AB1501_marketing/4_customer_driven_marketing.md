@@ -36,6 +36,10 @@
 * Perishability - They cannot be stored for later use
 * Variability - Quality depends on who provides them, when, where, how
 
+**performance quality** is the product's ability to perform its functions
+
+**conformance quality** is the capability of a product, service, or process to meet certain design standards set by the producer
+
 ### Price
 * List price
 * Discounts
