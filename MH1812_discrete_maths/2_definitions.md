@@ -116,7 +116,7 @@ if $p\rightarrow q$:
 |-|-|
 |Modus Ponens|$(p\implies q)\land p\therefore q$
 |Modus Tollens|$(p\implies q)\land\lnot q\therefore \lnot p$
-|Conjunctive Simplification (Particularising)|$p\lor q\therefore p$
+|Conjunctive Simplification (Particularising)|$p\land q\therefore p$
 |Conjunctive Addition (Specialising)|$p, q\therefore p\land q$
 |Disjunctive Addition (Generalisation)|$p\therefore p\lor q$
 |Disjunctive Syllogism (Case Elimination)| $(p\lor q)\land\lnot p\therefore q$
