@@ -69,11 +69,12 @@ A **fallacy** is an error in reasoning that results in an invalid **argument**
 ||$\Diamond$
 
 #### Miscellaneous
-$\mathbb{set}$
-$\mathbb{Z}$
-$\mathbb{N}$
-$\Delta$
-$\delta$
+|Name|Symbol|Notes|
+|-|-|-|
+|Ceil|$\lceil\rceil$
+|Floor|$\lfloor\rfloor$
+|Summation|$sum_{n=1}^{\infty}$
+|Product|$\prod_{i=a}^{b}$
 
 ## Laws of Logic
 #### De Morgan's Laws
