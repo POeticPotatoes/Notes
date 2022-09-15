@@ -21,7 +21,7 @@ def move_marble(x,y): # removed extra arguments and added leniency for tilt
     pitch = orientation['pitch']
     roll = orientation['roll']
     new_x = max(0, min(7, x + (pitch>130) - (pitch<230))) # Exploiting the fact that True=1 and False=0
-    new_y = max(0, min(7, y - (roll>1130) + (roll<230))) # Using min and max to prevent overflow
+    new_y = max(0, min(7, y - (roll>130) + (roll<230))) # Using min and max to prevent overflow
 
     if check_marble(new_x, new_y): # Do the check here
         print("Bump~")
