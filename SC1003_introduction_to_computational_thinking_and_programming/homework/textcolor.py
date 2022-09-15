@@ -1,4 +1,5 @@
 def get_color(color):
+    val = -1
     for c in range(3):
         try:
             val = int(raw_input("Enter the value of the " + color + " color for message (0 to 255):"))

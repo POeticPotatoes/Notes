@@ -100,7 +100,7 @@ $p\lor p\equiv p$
 
 ## Additional Terms
 A **vacuously true** proposition is **true by default**:  
-if $p \rightarrow q$ and *q* is true even if *p* is false, *p* is *vacuously true*
+gf $p \rightarrow q$ and *q* is true even if *p* is false, *p* is *vacuously true*
 
 if $p\rightarrow q$:  
 * p is a **sufficient condition** for q: $\lnot p \nrightarrow\lnot q$

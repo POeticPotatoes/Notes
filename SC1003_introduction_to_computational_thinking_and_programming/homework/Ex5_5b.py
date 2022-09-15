@@ -1,3 +1,6 @@
 from textcolor import get_color
 
-print(get_color("Your mom"))
+a = [get_color('red'),
+get_color('green'),
+get_color('blue')]
+print(a)
