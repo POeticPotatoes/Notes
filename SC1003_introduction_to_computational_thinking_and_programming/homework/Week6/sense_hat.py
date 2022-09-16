@@ -1,5 +1,9 @@
+# This is a file I use to test sensehat code (Not in syllabus)
+# It contains a similar API to sense_hat, but asks for input for orientation.
+# Any messages or pixels it should display are printed to the command line.
+
 def get_input(name):
-    for r in range(3):
+    for r in range(2):
         try:
             return int(input("Enter a value for " + name + ":"))
         except:

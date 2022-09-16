@@ -4,7 +4,7 @@
 def reverseAndRepeat(a_str, num):
     if len(a_str):
         return a_str[-1] * num + reverseAndRepeat(a_str[:-1], num)
-    # len(a_str) is 0, return an empty string
+    # Since len(a_str) is 0 we return an empty string
     return ''
 
 def reverseAndOppositeCase(a_str):
