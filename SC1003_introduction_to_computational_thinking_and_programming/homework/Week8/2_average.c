@@ -2,11 +2,11 @@
 
 int main() {
     
-    int t;
+    int lines;
     printf("Enter number of lines:\n");
-    scanf("%d", &t);
+    scanf("%d", &lines);
 
-    for (int i=1;i<=t;i++) {
+    for (int i=1;i<=lines;i++) {
         int c=0, n;
         float t = 0;
         printf("Enter line %d (end with -1):\n", i);
