@@ -47,14 +47,25 @@ A **bond** is a debt instrument that promises a <ins>fixed dollar amount</ins> f
 A **stock** is an equity instrument that gives <ins>an uncertain dividend</ins> for every period
 
 Types of Financial Markets:
-* **Physical asset markets** are for products such as computers/machines
-* **Financial asset markets** deals with **stocks, loans, notes and mortgages**.
-* **Primary markets** are the process by which companies obtain **fresh funds**, eg. selling stocks in a market for the first time. A company receives money -> Primary Market Transaction
-* **Secondary markets** are markets where **extending securities** are traded among investors.
-* **Public markets** are where **standardised contracts** are traded on **recognised exchanges**. They are differentiated from **private markets** where contracts are negotiated between two parties.
-* **Money Markets** are markets in which funds are borrowed or loaned for a short period (less than 1 year).
-* **Capital Markets** are markets where Stocks and intermediate/long-term debts (maturity >1 year) are traded.
-> TODO: Read about more Market Types in the textbook
+Physical vs Financial
+Physical stuffs like wheat/machinery
+Financial trades financial instruments (stocks, bonds, notes, mortgages)
+
+Spot markets vs Futures markets
+on the spot!
+in the future (with price decided now)
+
+Money markets vs Capital markets
+Money is for highly liquid debt securities (<1y)
+Capital is for intermediate-long term(1-10,>10y) debt/corporate stocks
+
+Primary vs Secondary
+Primary is for corporations to raise new capital
+Secondary is between bois
+
+Private vs Public
+Public has standardised contracts on organised exchanges
+Private is between fams and not structured
 
 Companies often rely on **Financial Institutions** for capital:
 * Commercial Banks
