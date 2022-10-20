@@ -1,7 +1,35 @@
-when will it be held
+Project Assignment  
+Due date: Week 12  
+2nd Nov Executive Summary  
+4th Nov Presentation Slides  
+7th Nov Actual Presentation  
 
-instagram account might be private unwilling to do it could do on a google form
+```
+abcdefghijklmnopqrstuvwxyz
+```
 
-verify on the google form (if they say that they have completed it)
+```
+\|/     (___)
+        (o o)    \|/
+   _____[ ..)
+ /|       )   \|/
+/ | _____|
+* ||    ||
+            moo
+```
 
-manpower issues not considered
+```
+ribbit
+    n____n
+   / o  o \
+   \  (---/---> &
+  /\   /||
+/|_ /__|||
+```
+
+```
+    ___
+  /^ @ l_
+ /    -\_\
+ [    w/
+```

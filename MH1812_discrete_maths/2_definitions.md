@@ -1,5 +1,6 @@
 Provided Notes: https://qikunxiang.net
 
+
 # Mathematical Proofs
 ## Definitions
 A **mathematical proof** is a verification of a **proposition** by a chain of logical deductions from a set of **axioms**
@@ -127,3 +128,6 @@ if $p\rightarrow q$:
 |Hypothetical Syllogism|$(p\implies q)\land (q\implies r)\therefore p\implies r$
 
     These names must be mentioned when using them in exams.
+
+
+$\{jfeie\}$
