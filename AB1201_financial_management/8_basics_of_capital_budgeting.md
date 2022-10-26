@@ -13,3 +13,8 @@ The project requires an initial investment of $89,000 in Year 0, the projected c
 
 Calculate the project’s NPV, IRR, and MIRR.
 Should the project be accepted?
+
+
+google acquiring android as an example of acquiring a negative npv for expected growth
+isnt android an open source project, meaning to say that it is free, how would that result in future cash flows
+

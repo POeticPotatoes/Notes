@@ -60,11 +60,11 @@ void printArray(int ar[][SIZE], int rowSize, int colSize) {
 
 
 void transpose2D(int ar[][SIZE], int rowSize, int colSize) {
-    for (int i=0;i<SIZE;i++) {
-        for (int offset=1;offset+i<SIZE;offset++) {
-            int temp = ar[i+offset][i];
-            ar[i+offset][i] = ar[i][i+offset];
-            ar[i][i+offset] = temp;
+    for (int y=0;y<colSize;y++) {
+        for (int x=y;x<rowSize;x++) {
+            int temp = ar[y][x];
+            ar[y][x] = ar[x][y];
+            ar[x][y] = temp;
         }
     }
 }

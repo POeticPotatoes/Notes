@@ -8,7 +8,7 @@ int main() {
 
     for (int i=1;i<=lines;i++) {
         int c=0, n;
-        float t = 0;
+        float t=0;
         printf("Enter line %d (end with -1):\n", i);
         scanf("%d", &n);
         while (n != -1) {
