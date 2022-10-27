@@ -67,5 +67,5 @@ int findTarget(char *target, char nameptr[][80], int size)
 int stringcmp(char *a, char *b) {
     int i=-1;
     while (a[++i]) if (a[i] != b[i]) return a[i]-b[i];
-    return b[i];
+    return -b[i];
 }
