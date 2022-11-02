@@ -19,6 +19,5 @@ int main() {
 int stringcmp(char *s1, char *s2) {
     int i=-1;
     while (s1[++i]) if (s1[i] != s2[i]) return -1+2*(s1[i]>s2[i]);
-    if (s2[i]) return -1;
-    return 0;
+    return -!!s2[i];
 }
