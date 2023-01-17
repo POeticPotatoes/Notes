@@ -18,3 +18,7 @@ Negative implications:
     * How to manage time
     * How to exercise
     * 
+
+## Part 2
+Script:  
+Thank you Bryan, now we'll be going over the values and strengths we can learn
