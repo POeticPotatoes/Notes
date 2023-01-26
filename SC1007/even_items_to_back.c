@@ -78,25 +78,35 @@ int main()
 
 //////////////////////////////////////////////////////////////////////////////////
 
+// I think it's a good idea to attempt these exercises
+// without using any of the provided functions
+
 void moveEvenItemsToBack(LinkedList *ll)
 {
+    // idea: keep a separate even linked list
+    // start with node evenHead and end with node end
+    //
+    // notice that i create a listnode "temp" and link it to the front
+    // to avoid problems if the first node is even
     ListNode *head = NULL, temp={57,ll->head}, *cur = &temp, *start, *end=NULL, *evenHead=NULL;
     while (cur) {
+        // advance cur until its next value is even
         while (cur->next && cur->next->item%2) cur = cur->next;
-        if (!cur->next) {
-            cur->next = evenHead;
-            break;
-        }
+        if (!cur->next) break;
+
+        // if the even list already exists, add to it, else create it anew
         if (end) end->next = cur->next;
         else evenHead = cur->next;
         end = cur->next;
+
+        // link cur to the next odd node
         while (end->next && (!end->next->item%2)) end = end->next;
-        if (!end->next) {
-            cur->next = evenHead;
-            break;
-        }
         cur->next = end->next;
     }
+    // Link cur to the even linked list
+    cur->next = evenHead;
+    end->next = NULL;
+    // Return the head of the list
     ll->head = temp.next;
 }
 
