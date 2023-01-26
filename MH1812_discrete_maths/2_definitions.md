@@ -5,7 +5,6 @@ Provided Notes: https://qikunxiang.net
 ## Definitions
 A **mathematical proof** is a verification of a **proposition** by a chain of logical deductions from a set of **axioms**
 
-
 A **proposition** is a **declarative statement** that is either True or False
 
 A **paradox** is a **declarative statement** that cannot be assigned a truth value

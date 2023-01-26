@@ -1,0 +1,359 @@
+# Metadata for Government Budget and Fiscal Position, Annual
+---
+Identifier: '3ae25473-60fa-4b36-9318-b9288e816a44'
+Name: 'government-fiscal-position-annual'
+Title: 'Government Budget and Fiscal Position, Annual'
+Description:
+  - 'Fiscal position may not be fully comparable across financial years due to the
+    reclassification of revenue and expenditure items over time.'
+  - ''
+  - 'The Government''s financial year begins on 1 April of the current year and ends
+    on 31 March of the following year.'
+  - ''
+  - 'Figures may not add up due to rounding.'
+Topics:
+  - 'Economy'
+  - 'Finance'
+Keywords:
+  - 'budget'
+  - 'deficit'
+  - 'expenditure'
+  - 'fiscal policy'
+  - 'revenue'
+  - 'surplus'
+Publisher:
+  Name: 'Ministry of Finance'
+  Admin 1:
+    Name: 'Neo Si Yun'
+    Department: 'Fiscal Policy'
+    Email: 'neo_si_yun@mof.gov.sg'
+  Admin 2:
+    Name: 'Lee Si Xian'
+    Department: 'Fiscal Policy'
+    Email: 'lee_si_xian@mof.gov.sg'
+Sources:
+  - 'Ministry of Finance'
+Source Url: 'https://www.singaporebudget.gov.sg/budget_2018/home'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1997-01-01 to 2022-03-31'
+Last Updated: '2021-06-18T01:31:46.518606'
+Resources:
+  -
+    Identifier: '98856a60-33cd-482a-9dc4-1ed52e562d5d'
+    Title: 'Government Fiscal Position'
+    Url: 'https://storage.data.gov.sg/government-fiscal-position-annual/resources/government-fiscal-position-2021-02-18T09-20-19Z.csv'
+    Format: 'CSV'
+    Coverage: '1997-01-01 to 2021-12-31'
+    Description:
+      - '''Operating Revenue'' excludes the repayment of loans and advances, interest
+        income, investment income and capital receipts.'
+      - ''
+      - '''Total Expenditure'' comprises Operating Expenditure and Development Expenditure.
+        Development Expenditure excludes land-related expenditure from FY2001.'
+      - ''
+      - '''Special Transfers Excluding Top-ups to Endowment and Trust Funds'' refer
+        to discretionary transfers made by the Government and these include one-off
+        direct transfers to businesses and households.'
+      - ''
+      - '''Top-ups to Endowment and Trust Funds'' refer to top-ups to endowment and
+        trust funds created by the Government for specific expenditure objectives.'
+      - ''
+      - '''Net Investment Income/Returns Contribution'' (NIRC) is the sum of: (1)
+        up to 50% of the expected long-term real return on the relevant assets specified
+        in the Constitution; and (2) up to 50% of the net investment income on the
+        remaining assets.'
+      - ''
+      - 'The Primary Budget Position, defined as Operating Revenue less Total Expenditure,
+        measures the ability of the Government to meet its annual expenditures through
+        its regular collection of revenue (taxes, fees and charges).'
+      - ''
+      - 'The Basic Budget Position, which is the Surplus/Deficit before Top-ups to
+        Endowment and Trust Funds and Net Investment Income/Returns Contribution,
+        gives an indication of the annual impact of Government’s revenue and expenditure
+        on the economy.'
+      - ''
+      - 'The Overall Budget Position shows the Government’s annual overall budget
+        position based on Singapore''s Constitutional framework.'
+    Last Updated: '2021-02-18T09:20:19.071401'
+    Schema:
+      -
+        Name: 'year_of_balance'
+        Title: 'Year of balance'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'actual_revised_estimated'
+        Title: 'Actual/Revised/Estimated'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'category'
+        Title: 'Category'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'item'
+        Title: 'Item'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'amount'
+        Title: 'Amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ million'
+      -
+        Name: 'percent_of_gdp'
+        Title: 'Percent of gdp'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 1, i.e. "1" represents
+          100%'
+  -
+    Identifier: 'd4dbffc1-b097-4d86-9da8-afaf91dfbcbd'
+    Title: 'Government Operating Revenue'
+    Url: 'https://storage.data.gov.sg/government-fiscal-position-annual/resources/government-operating-revenue-2021-05-28T01-33-20Z.csv'
+    Format: 'CSV'
+    Coverage: '1997-04-01 to 2022-03-31'
+    Description:
+      - 'Operating Revenue excludes the repayment of loans and advances, interest
+        income, investment income and capital receipts.'
+      - ''
+      - 'Withholding Tax refers to collections under Section 45 of the Income Tax
+        Act, which is a withholding tax on locally-sourced income earned by non-residents.'
+      - ''
+      - 'Assets Taxes refer to property tax and estate duty. Estate duty, which is
+        a tax on the total market value of a person''s assets (cash and non-cash)
+        at the date of his or her death, has been removed for deaths occurring on
+        and after 15 February 2008.'
+      - ''
+      - 'Taxes on Motor Vehicles comprise additional registration fees, road tax,
+        special tax on heavy-oil engines, passenger vehicle seating fees and non-motor
+        vehicle licences, but exclude excise duties on motor vehicles which are classified
+        under Customs and Excise Duties.'
+      - ''
+      - 'With effect from March 2010, Betting Taxes include casino tax collected under
+        Section 146 of the Casino Control Act.'
+      - ''
+      - 'Other Taxes include the foreign worker levy, annual tonnage tax, water conservation
+        tax and development charge. The development charge has been reclassified from
+        the ''Other Fees and Charges'' to ''Other Taxes'' category with effect from
+        April 2009 to more accurately reflect its nature as a tax under Section 35
+        of the Planning Act.'
+      - ''
+      - 'Other Fees and Charges include Licenses, Permits, Service Fees, Sales of
+        Goods, Rental of Premises, Fines and Forfeitures and Reimbursements.'
+      - ''
+      - 'Prior to the Constitutional amendments to protect 50% of Net Investment Income
+        in FY2000, interest on development loans was classified as ‘Others’.'
+    Last Updated: '2021-05-28T01:33:20.206136'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'actual_revised_estimated'
+        Title: 'Actual/Revised/Estimated'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'The data for the latest financial year is estimated, while that
+          for the previous year is revised.'
+      -
+        Name: 'class'
+        Title: 'Class'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'type'
+        Title: 'Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'amount'
+        Title: 'Amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ million'
+      -
+        Name: 'percent_of_gdp'
+        Title: 'Percentage of GDP'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 1, i.e. "1" represents
+          100%'
+  -
+    Identifier: '7b4af397-3e8f-40de-9208-90d168afc810'
+    Title: 'Government Total Expenditure'
+    Url: 'https://storage.data.gov.sg/government-fiscal-position-annual/resources/government-total-expenditure-2021-02-18T09-21-28Z.csv'
+    Format: 'CSV'
+    Coverage: '1997-04-01 to 2022-03-31'
+    Description:
+      - 'Total Expenditure comprises Operating Expenditure and Development Expenditure.
+        Development Expenditure excludes land-related expenditure from FY2001.'
+      - ''
+      - 'Operating Expenditure refers to expenditure on manpower, other operating
+        expenditure (excluding expenses on investment and agency fees on land sales),
+        operating grants and transfers.'
+      - ''
+      - 'Refinements have been made over time to the sectoral classification of Ministries''
+        expenditure to better reflect the nature of the programmes. In FY2007, expenditure
+        by the then-Ministry of Communications, Information and the Arts under the
+        Info-Communications and Media Development Programme was reclassified from
+        the Social Development sector to the Economic Development sector. In FY2013,
+        expenditure by the Ministry of Manpower under the Financial Security programme
+        was reclassified from the Economic Development sector to the Social Development
+        sector.'
+      - ''
+      - 'With effect from 1 November 2012, the Ministry of Community Development,
+        Youth and Sports (MCYS) and the Ministry of Information, Communications and
+        the Arts (MICA) were restructured to form three Ministries: (i) MCYS was renamed
+        the Ministry of Social and Family Development (MSF), (ii) MICA was renamed
+        the Ministry of Communications and Information (MCI) and (iii) the new Ministry
+        of Culture, Community and Youth (MCCY) was formed to undertake functions transferred
+        from MCYS and MICA.'
+    Last Updated: '2021-02-18T09:21:28.172649'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'actual_revised_estimated'
+        Title: 'Actual/Revised/Estimated'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'The data for the latest financial year is estimated, while that
+          for the previous year is revised.'
+      -
+        Name: 'sector'
+        Title: 'Sector'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'ministry'
+        Title: 'Ministry'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'type'
+        Title: 'Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'amount'
+        Title: 'Amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ million'
+      -
+        Name: 'percent_of_gdp'
+        Title: 'Percentage of GDP'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 1, i.e. "1" represents
+          100%'
+  -
+    Identifier: '032ac035-7a69-4e09-9007-7426ddef63e4'
+    Title: 'Government Expenditure by Type'
+    Url: 'https://storage.data.gov.sg/government-fiscal-position-annual/resources/government-expenditure-by-type-2021-02-18T09-22-31Z.csv'
+    Format: 'CSV'
+    Coverage: '1997-04-01 to 2021-03-31'
+    Description: 'Total Expenditure comprises Operating Expenditure and Development
+      Expenditure. Development Expenditure excludes land-related expenditure from
+      FY2001.'
+    Last Updated: '2021-02-18T09:22:31.873367'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'actual_revised_estimated'
+        Title: 'Actual/Revised/Estimated'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'The data for the latest financial year is estimated, while that
+          for the previous year is revised.'
+      -
+        Name: 'type'
+        Title: 'Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'category'
+        Title: 'Category'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'class'
+        Title: 'Class'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'amount'
+        Title: 'Amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ million'
+  -
+    Identifier: '4b9846f9-f629-4e29-b493-f5d02df92d72'
+    Title: 'Government Manpower'
+    Url: 'https://storage.data.gov.sg/government-fiscal-position-annual/resources/government-manpower-2021-02-18T09-22-46Z.csv'
+    Format: 'CSV'
+    Coverage: '1997-04-01 to 2022-03-31'
+    Description:
+      - 'Establishments reflect the number of officers that ministries cam hire, but
+        are not reflective of actual headcount, as establishments may not be filled
+        by ministries even though they may be kept in anticipation of a future need.
+        Figures for FY1997 to FY2015 are for actual headcount. Figures for FY2016
+        are for revised establishments. Figures for FY2017 are for budgeted establishments.'
+      - ''
+      - 'Info-Communications and Media Development expenditure under the Economic
+        Development sector refers to expenditure under the Infocomm Development Authority
+        of Singapore, and Media Development Authority prior to 1 October 2016. Thereafter,
+        it refers to that of Info-communications Media Development Authority and Government
+        Technology Agency of Singapore (FY2016 only).'
+      - ''
+      - 'With effect from 1 May 2017, the Smart Nation and Digital Government Group
+        (SNDGG) was formed under the Prime Minister''s Office (PMO) comprising the
+        Digital Government Directorate of the Ministry of Finance (MOF), the Government
+        Technology Policy department and Government Technology Agency (GovTech) of
+        the Ministry of Communications and Information (MCI), and the Smart Nation
+        Programme Office (SNPO) of the PMO.'
+    Last Updated: '2021-02-18T09:22:46.268126'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'actual_revised_estimated'
+        Title: 'Actual/Revised/Estimated'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'ministry'
+        Title: 'Ministry'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'Number'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'

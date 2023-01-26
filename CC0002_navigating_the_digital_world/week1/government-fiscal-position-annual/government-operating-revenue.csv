@@ -1,0 +1,351 @@
+financial_year,actual_revised_estimated,class,type,amount,percent_of_gdp
+1997,Actual,Tax,Corporate Income Tax,6809,0.045
+1998,Actual,Tax,Corporate Income Tax,6256,0.044
+1999,Actual,Tax,Corporate Income Tax,6565,0.044
+2000,Actual,Tax,Corporate Income Tax,8316,0.049
+2001,Actual,Tax,Corporate Income Tax,7821,0.049
+2002,Actual,Tax,Corporate Income Tax,6822,0.041
+2003,Actual,Tax,Corporate Income Tax,5921,0.034
+2004,Actual,Tax,Corporate Income Tax,6107,0.031
+2005,Actual,Tax,Corporate Income Tax,7340,0.034
+2006,Actual,Tax,Corporate Income Tax,8474,0.035
+2007,Actual,Tax,Corporate Income Tax,9250,0.033
+2008,Actual,Tax,Corporate Income Tax,10554,0.039
+2009,Actual,Tax,Corporate Income Tax,9551,0.032
+2010,Actual,Tax,Corporate Income Tax,10687,0.032
+2011,Actual,Tax,Corporate Income Tax,12096,0.034
+2012,Actual,Tax,Corporate Income Tax,12821,0.035
+2013,Actual,Tax,Corporate Income Tax,12680,0.033
+2014,Actual,Tax,Corporate Income Tax,13371,0.033
+2015,Actual,Tax,Corporate Income Tax,13815,0.032
+2016,Actual,Tax,Corporate Income Tax,13602,0.03
+2017,Actual,Tax,Corporate Income Tax,14944,0.031
+2018,Actual,Tax,Corporate Income Tax,16032,0.031
+2019,Actual,Tax,Corporate Income Tax,16732,0.033
+2020,Revised,Tax,Corporate Income Tax,13744,0.029
+2021,Estimated,Tax,Corporate Income Tax,17968,0.036
+1997,Actual,Tax,Personal Income Tax,2347,0.016
+1998,Actual,Tax,Personal Income Tax,2960,0.021
+1999,Actual,Tax,Personal Income Tax,3040,0.02
+2000,Actual,Tax,Personal Income Tax,3543,0.021
+2001,Actual,Tax,Personal Income Tax,3732,0.023
+2002,Actual,Tax,Personal Income Tax,3423,0.02
+2003,Actual,Tax,Personal Income Tax,3133,0.018
+2004,Actual,Tax,Personal Income Tax,3132,0.016
+2005,Actual,Tax,Personal Income Tax,3425,0.016
+2006,Actual,Tax,Personal Income Tax,3743,0.015
+2007,Actual,Tax,Personal Income Tax,4537,0.016
+2008,Actual,Tax,Personal Income Tax,5414,0.02
+2009,Actual,Tax,Personal Income Tax,6114,0.021
+2010,Actual,Tax,Personal Income Tax,6470,0.019
+2011,Actual,Tax,Personal Income Tax,6871,0.019
+2012,Actual,Tax,Personal Income Tax,7714,0.021
+2013,Actual,Tax,Personal Income Tax,7688,0.02
+2014,Actual,Tax,Personal Income Tax,8927,0.022
+2015,Actual,Tax,Personal Income Tax,9235,0.022
+2016,Actual,Tax,Personal Income Tax,10526,0.023
+2017,Actual,Tax,Personal Income Tax,10724,0.022
+2018,Actual,Tax,Personal Income Tax,11706,0.023
+2019,Actual,Tax,Personal Income Tax,12368,0.024
+2020,Revised,Tax,Personal Income Tax,12773,0.027
+2021,Estimated,Tax,Personal Income Tax,12373,0.024
+1997,Actual,Tax,Withholding Tax,337,0.002
+1998,Actual,Tax,Withholding Tax,316,0.002
+1999,Actual,Tax,Withholding Tax,467,0.003
+2000,Actual,Tax,Withholding Tax,486,0.003
+2001,Actual,Tax,Withholding Tax,815,0.005
+2002,Actual,Tax,Withholding Tax,626,0.004
+2003,Actual,Tax,Withholding Tax,729,0.004
+2004,Actual,Tax,Withholding Tax,824,0.004
+2005,Actual,Tax,Withholding Tax,898,0.004
+2006,Actual,Tax,Withholding Tax,964,0.004
+2007,Actual,Tax,Withholding Tax,1150,0.004
+2008,Actual,Tax,Withholding Tax,1176,0.004
+2009,Actual,Tax,Withholding Tax,1137,0.004
+2010,Actual,Tax,Withholding Tax,957,0.003
+2011,Actual,Tax,Withholding Tax,1258,0.004
+2012,Actual,Tax,Withholding Tax,1337,0.004
+2013,Actual,Tax,Withholding Tax,1152,0.003
+2014,Actual,Tax,Withholding Tax,1126,0.003
+2015,Actual,Tax,Withholding Tax,1402,0.003
+2016,Actual,Tax,Withholding Tax,1474,0.003
+2017,Actual,Tax,Withholding Tax,1532,0.003
+2018,Actual,Tax,Withholding Tax,1590,0.003
+2019,Actual,Tax,Withholding Tax,1637,0.003
+2020,Revised,Tax,Withholding Tax,1536,0.003
+2021,Estimated,Tax,Withholding Tax,1648,0.003
+1997,Actual,Tax,Statutory Boards' Contributions,702,0.005
+1998,Actual,Tax,Statutory Boards' Contributions,1800,0.013
+1999,Actual,Tax,Statutory Boards' Contributions,1676,0.011
+2000,Actual,Tax,Statutory Boards' Contributions,1192,0.007
+2001,Actual,Tax,Statutory Boards' Contributions,862,0.005
+2002,Actual,Tax,Statutory Boards' Contributions,625,0.004
+2003,Actual,Tax,Statutory Boards' Contributions,488,0.003
+2004,Actual,Tax,Statutory Boards' Contributions,1405,0.007
+2005,Actual,Tax,Statutory Boards' Contributions,1249,0.006
+2006,Actual,Tax,Statutory Boards' Contributions,955,0.004
+2007,Actual,Tax,Statutory Boards' Contributions,1683,0.006
+2008,Actual,Tax,Statutory Boards' Contributions,2143,0.008
+2009,Actual,Tax,Statutory Boards' Contributions,410,0.001
+2010,Actual,Tax,Statutory Boards' Contributions,573,0.002
+2011,Actual,Tax,Statutory Boards' Contributions,353,0.001
+2012,Actual,Tax,Statutory Boards' Contributions,539,0.001
+2013,Actual,Tax,Statutory Boards' Contributions,530,0.001
+2014,Actual,Tax,Statutory Boards' Contributions,516,0.001
+2015,Actual,Tax,Statutory Boards' Contributions,438,0.001
+2016,Actual,Tax,Statutory Boards' Contributions,775,0.002
+2017,Actual,Tax,Statutory Boards' Contributions,4866,0.01
+2018,Actual,Tax,Statutory Boards' Contributions,1490,0.003
+2019,Actual,Tax,Statutory Boards' Contributions,1798,0.004
+2020,Revised,Tax,Statutory Boards' Contributions,2519,0.005
+2021,Estimated,Tax,Statutory Boards' Contributions,2505,0.005
+1997,Actual,Tax,Assets Taxes,2335,0.016
+1998,Actual,Tax,Assets Taxes,1529,0.011
+1999,Actual,Tax,Assets Taxes,1314,0.009
+2000,Actual,Tax,Assets Taxes,1606,0.01
+2001,Actual,Tax,Assets Taxes,1517,0.009
+2002,Actual,Tax,Assets Taxes,1308,0.008
+2003,Actual,Tax,Assets Taxes,1512,0.009
+2004,Actual,Tax,Assets Taxes,2058,0.01
+2005,Actual,Tax,Assets Taxes,1910,0.009
+2006,Actual,Tax,Assets Taxes,2112,0.009
+2007,Actual,Tax,Assets Taxes,2582,0.009
+2008,Actual,Tax,Assets Taxes,2904,0.011
+2009,Actual,Tax,Assets Taxes,1987,0.007
+2010,Actual,Tax,Assets Taxes,2803,0.008
+2011,Actual,Tax,Assets Taxes,3902,0.011
+2012,Actual,Tax,Assets Taxes,3768,0.01
+2013,Actual,Tax,Assets Taxes,4182,0.011
+2014,Actual,Tax,Assets Taxes,4341,0.011
+2015,Actual,Tax,Assets Taxes,4455,0.01
+2016,Actual,Tax,Assets Taxes,4360,0.01
+2017,Actual,Tax,Assets Taxes,4440,0.009
+2018,Actual,Tax,Assets Taxes,4649,0.009
+2019,Actual,Tax,Assets Taxes,4762,0.009
+2020,Revised,Tax,Assets Taxes,3095,0.007
+2021,Estimated,Tax,Assets Taxes,4742,0.009
+1997,Actual,Tax,"Customs, Excise and Carbon Taxes",1633,0.011
+1998,Actual,Tax,"Customs, Excise and Carbon Taxes",1566,0.011
+1999,Actual,Tax,"Customs, Excise and Carbon Taxes",1574,0.01
+2000,Actual,Tax,"Customs, Excise and Carbon Taxes",1847,0.011
+2001,Actual,Tax,"Customs, Excise and Carbon Taxes",1803,0.011
+2002,Actual,Tax,"Customs, Excise and Carbon Taxes",1730,0.01
+2003,Actual,Tax,"Customs, Excise and Carbon Taxes",1901,0.011
+2004,Actual,Tax,"Customs, Excise and Carbon Taxes",1924,0.01
+2005,Actual,Tax,"Customs, Excise and Carbon Taxes",1973,0.009
+2006,Actual,Tax,"Customs, Excise and Carbon Taxes",1887,0.008
+2007,Actual,Tax,"Customs, Excise and Carbon Taxes",1985,0.007
+2008,Actual,Tax,"Customs, Excise and Carbon Taxes",2065,0.008
+2009,Actual,Tax,"Customs, Excise and Carbon Taxes",2125,0.007
+2010,Actual,Tax,"Customs, Excise and Carbon Taxes",2048,0.006
+2011,Actual,Tax,"Customs, Excise and Carbon Taxes",2133,0.006
+2012,Actual,Tax,"Customs, Excise and Carbon Taxes",2142,0.006
+2013,Actual,Tax,"Customs, Excise and Carbon Taxes",2189,0.006
+2014,Actual,Tax,"Customs, Excise and Carbon Taxes",2540,0.006
+2015,Actual,Tax,"Customs, Excise and Carbon Taxes",2833,0.007
+2016,Actual,Tax,"Customs, Excise and Carbon Taxes",2730,0.006
+2017,Actual,Tax,"Customs, Excise and Carbon Taxes",3133,0.007
+2018,Actual,Tax,"Customs, Excise and Carbon Taxes",3075,0.006
+2019,Actual,Tax,"Customs, Excise and Carbon Taxes",3264,0.006
+2020,Revised,Tax,"Customs, Excise and Carbon Taxes",3506,0.008
+2021,Estimated,Tax,"Customs, Excise and Carbon Taxes",3773,0.007
+1997,Actual,Tax,Goods and Services Tax,1927,0.013
+1998,Actual,Tax,Goods and Services Tax,1657,0.012
+1999,Actual,Tax,Goods and Services Tax,1995,0.013
+2000,Actual,Tax,Goods and Services Tax,2121,0.013
+2001,Actual,Tax,Goods and Services Tax,2134,0.013
+2002,Actual,Tax,Goods and Services Tax,2165,0.013
+2003,Actual,Tax,Goods and Services Tax,2957,0.017
+2004,Actual,Tax,Goods and Services Tax,3470,0.017
+2005,Actual,Tax,Goods and Services Tax,3815,0.017
+2006,Actual,Tax,Goods and Services Tax,3978,0.016
+2007,Actual,Tax,Goods and Services Tax,6165,0.022
+2008,Actual,Tax,Goods and Services Tax,6487,0.024
+2009,Actual,Tax,Goods and Services Tax,6914,0.023
+2010,Actual,Tax,Goods and Services Tax,8198,0.024
+2011,Actual,Tax,Goods and Services Tax,8687,0.024
+2012,Actual,Tax,Goods and Services Tax,9038,0.024
+2013,Actual,Tax,Goods and Services Tax,9513,0.025
+2014,Actual,Tax,Goods and Services Tax,10215,0.025
+2015,Actual,Tax,Goods and Services Tax,10345,0.024
+2016,Actual,Tax,Goods and Services Tax,11078,0.025
+2017,Actual,Tax,Goods and Services Tax,10960,0.023
+2018,Actual,Tax,Goods and Services Tax,11137,0.022
+2019,Actual,Tax,Goods and Services Tax,11164,0.022
+2020,Revised,Tax,Goods and Services Tax,9898,0.021
+2021,Estimated,Tax,Goods and Services Tax,11344,0.022
+1997,Actual,Tax,Motor Vehicle Taxes,1743,0.012
+1998,Actual,Tax,Motor Vehicle Taxes,1205,0.009
+1999,Actual,Tax,Motor Vehicle Taxes,1719,0.011
+2000,Actual,Tax,Motor Vehicle Taxes,2506,0.015
+2001,Actual,Tax,Motor Vehicle Taxes,1972,0.012
+2002,Actual,Tax,Motor Vehicle Taxes,1446,0.009
+2003,Actual,Tax,Motor Vehicle Taxes,1486,0.009
+2004,Actual,Tax,Motor Vehicle Taxes,1392,0.007
+2005,Actual,Tax,Motor Vehicle Taxes,1432,0.007
+2006,Actual,Tax,Motor Vehicle Taxes,1745,0.007
+2007,Actual,Tax,Motor Vehicle Taxes,2189,0.008
+2008,Actual,Tax,Motor Vehicle Taxes,1835,0.007
+2009,Actual,Tax,Motor Vehicle Taxes,1856,0.006
+2010,Actual,Tax,Motor Vehicle Taxes,1851,0.006
+2011,Actual,Tax,Motor Vehicle Taxes,1920,0.005
+2012,Actual,Tax,Motor Vehicle Taxes,1803,0.005
+2013,Actual,Tax,Motor Vehicle Taxes,1655,0.004
+2014,Actual,Tax,Motor Vehicle Taxes,1603,0.004
+2015,Actual,Tax,Motor Vehicle Taxes,1760,0.004
+2016,Actual,Tax,Motor Vehicle Taxes,2148,0.005
+2017,Actual,Tax,Motor Vehicle Taxes,2153,0.004
+2018,Actual,Tax,Motor Vehicle Taxes,2623,0.005
+2019,Actual,Tax,Motor Vehicle Taxes,2419,0.005
+2020,Revised,Tax,Motor Vehicle Taxes,2208,0.005
+2021,Estimated,Tax,Motor Vehicle Taxes,2516,0.005
+1997,Actual,Fees and Charges,Vehicle Quota Premiums,1799,0.012
+1998,Actual,Fees and Charges,Vehicle Quota Premiums,1271,0.009
+1999,Actual,Fees and Charges,Vehicle Quota Premiums,2513,0.017
+2000,Actual,Fees and Charges,Vehicle Quota Premiums,3105,0.018
+2001,Actual,Fees and Charges,Vehicle Quota Premiums,2089,0.013
+2002,Actual,Fees and Charges,Vehicle Quota Premiums,1778,0.011
+2003,Actual,Fees and Charges,Vehicle Quota Premiums,1543,0.009
+2004,Actual,Fees and Charges,Vehicle Quota Premiums,1257,0.006
+2005,Actual,Fees and Charges,Vehicle Quota Premiums,321,0.001
+2006,Actual,Fees and Charges,Vehicle Quota Premiums,93,0
+2007,Actual,Fees and Charges,Vehicle Quota Premiums,673,0.002
+2008,Actual,Fees and Charges,Vehicle Quota Premiums,367,0.001
+2009,Actual,Fees and Charges,Vehicle Quota Premiums,623,0.002
+2010,Actual,Fees and Charges,Vehicle Quota Premiums,1602,0.005
+2011,Actual,Fees and Charges,Vehicle Quota Premiums,2112,0.006
+2012,Actual,Fees and Charges,Vehicle Quota Premiums,2572,0.007
+2013,Actual,Fees and Charges,Vehicle Quota Premiums,2722,0.007
+2014,Actual,Fees and Charges,Vehicle Quota Premiums,3394,0.008
+2015,Actual,Fees and Charges,Vehicle Quota Premiums,5425,0.013
+2016,Actual,Fees and Charges,Vehicle Quota Premiums,6551,0.015
+2017,Actual,Fees and Charges,Vehicle Quota Premiums,5796,0.012
+2018,Actual,Fees and Charges,Vehicle Quota Premiums,3616,0.007
+2019,Actual,Fees and Charges,Vehicle Quota Premiums,2865,0.006
+2020,Revised,Fees and Charges,Vehicle Quota Premiums,2279,0.005
+2021,Estimated,Fees and Charges,Vehicle Quota Premiums,2276,0.005
+1997,Actual,Tax,Betting Taxes,1296,0.009
+1998,Actual,Tax,Betting Taxes,1272,0.009
+1999,Actual,Tax,Betting Taxes,1373,0.009
+2000,Actual,Tax,Betting Taxes,1494,0.009
+2001,Actual,Tax,Betting Taxes,1575,0.01
+2002,Actual,Tax,Betting Taxes,1550,0.009
+2003,Actual,Tax,Betting Taxes,1524,0.009
+2004,Actual,Tax,Betting Taxes,1534,0.008
+2005,Actual,Tax,Betting Taxes,1501,0.007
+2006,Actual,Tax,Betting Taxes,1571,0.006
+2007,Actual,Tax,Betting Taxes,1713,0.006
+2008,Actual,Tax,Betting Taxes,1771,0.007
+2009,Actual,Tax,Betting Taxes,1727,0.006
+2010,Actual,Tax,Betting Taxes,2279,0.007
+2011,Actual,Tax,Betting Taxes,2373,0.007
+2012,Actual,Tax,Betting Taxes,2305,0.006
+2013,Actual,Tax,Betting Taxes,2379,0.006
+2014,Actual,Tax,Betting Taxes,2591,0.006
+2015,Actual,Tax,Betting Taxes,2719,0.006
+2016,Actual,Tax,Betting Taxes,2682,0.006
+2017,Actual,Tax,Betting Taxes,2688,0.006
+2018,Actual,Tax,Betting Taxes,2664,0.005
+2019,Actual,Tax,Betting Taxes,2620,0.005
+2020,Revised,Tax,Betting Taxes,1847,0.004
+2021,Estimated,Tax,Betting Taxes,2408,0.005
+1997,Actual,Tax,Stamp Duty,1688,0.011
+1998,Actual,Tax,Stamp Duty,953,0.007
+1999,Actual,Tax,Stamp Duty,1413,0.009
+2000,Actual,Tax,Stamp Duty,1257,0.007
+2001,Actual,Tax,Stamp Duty,758,0.005
+2002,Actual,Tax,Stamp Duty,695,0.004
+2003,Actual,Tax,Stamp Duty,743,0.004
+2004,Actual,Tax,Stamp Duty,815,0.004
+2005,Actual,Tax,Stamp Duty,967,0.004
+2006,Actual,Tax,Stamp Duty,2015,0.008
+2007,Actual,Tax,Stamp Duty,3677,0.013
+2008,Actual,Tax,Stamp Duty,1432,0.005
+2009,Actual,Tax,Stamp Duty,2386,0.008
+2010,Actual,Tax,Stamp Duty,3277,0.01
+2011,Actual,Tax,Stamp Duty,3175,0.009
+2012,Actual,Tax,Stamp Duty,4309,0.012
+2013,Actual,Tax,Stamp Duty,3930,0.01
+2014,Actual,Tax,Stamp Duty,2784,0.007
+2015,Actual,Tax,Stamp Duty,2769,0.006
+2016,Actual,Tax,Stamp Duty,3278,0.007
+2017,Actual,Tax,Stamp Duty,4905,0.01
+2018,Actual,Tax,Stamp Duty,4607,0.009
+2019,Actual,Tax,Stamp Duty,4199,0.008
+2020,Revised,Tax,Stamp Duty,3662,0.008
+2021,Estimated,Tax,Stamp Duty,4253,0.008
+1997,Actual,Tax,Other Taxes,2194,0.015
+1998,Actual,Tax,Other Taxes,2037,0.014
+1999,Actual,Tax,Other Taxes,1489,0.01
+2000,Actual,Tax,Other Taxes,1259,0.007
+2001,Actual,Tax,Other Taxes,1181,0.007
+2002,Actual,Tax,Other Taxes,1114,0.007
+2003,Actual,Tax,Other Taxes,1108,0.006
+2004,Actual,Tax,Other Taxes,1137,0.006
+2005,Actual,Tax,Other Taxes,1177,0.005
+2006,Actual,Tax,Other Taxes,1384,0.006
+2007,Actual,Tax,Other Taxes,1698,0.006
+2008,Actual,Tax,Other Taxes,1929,0.007
+2009,Actual,Tax,Other Taxes,2410,0.008
+2010,Actual,Tax,Other Taxes,2706,0.008
+2011,Actual,Tax,Other Taxes,3307,0.009
+2012,Actual,Tax,Other Taxes,4342,0.012
+2013,Actual,Tax,Other Taxes,5248,0.014
+2014,Actual,Tax,Other Taxes,6097,0.015
+2015,Actual,Tax,Other Taxes,5876,0.014
+2016,Actual,Tax,Other Taxes,6045,0.013
+2017,Actual,Tax,Other Taxes,6019,0.013
+2018,Actual,Tax,Other Taxes,6629,0.013
+2019,Actual,Tax,Other Taxes,6683,0.013
+2020,Revised,Tax,Other Taxes,3776,0.008
+2021,Estimated,Tax,Other Taxes,6434,0.013
+1997,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2201,0.015
+1998,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),1881,0.013
+1999,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2051,0.014
+2000,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2545,0.015
+2001,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2045,0.013
+2002,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2027,0.012
+2003,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),1949,0.011
+2004,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2109,0.011
+2005,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),1925,0.009
+2006,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2109,0.009
+2007,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2956,0.011
+2008,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2845,0.011
+2009,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2142,0.007
+2010,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2384,0.007
+2011,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2587,0.007
+2012,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2708,0.007
+2013,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),2903,0.007
+2014,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),3010,0.007
+2015,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),3249,0.008
+2016,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),3209,0.007
+2017,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),3279,0.007
+2018,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),3490,0.007
+2019,Actual,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),3409,0.007
+2020,Revised,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),3316,0.007
+2021,Estimated,Fees and Charges,Fees and Charges (Excluding Vehicle Quota Premiums),3909,0.008
+1997,Actual,Others,Others,2170,0.014
+1998,Actual,Others,Others,3208,0.023
+1999,Actual,Others,Others,3458,0.023
+2000,Actual,Others,Others,162,0.001
+2001,Actual,Others,Others,190,0.001
+2002,Actual,Others,Others,162,0.001
+2003,Actual,Others,Others,321,0.002
+2004,Actual,Others,Others,305,0.002
+2005,Actual,Others,Others,238,0.001
+2006,Actual,Others,Others,259,0.001
+2007,Actual,Others,Others,115,0
+2008,Actual,Others,Others,165,0.001
+2009,Actual,Others,Others,165,0.001
+2010,Actual,Others,Others,226,0.001
+2011,Actual,Others,Others,302,0.001
+2012,Actual,Others,Others,416,0.001
+2013,Actual,Others,Others,250,0.001
+2014,Actual,Others,Others,324,0.001
+2015,Actual,Others,Others,502,0.001
+2016,Actual,Others,Others,506,0.001
+2017,Actual,Others,Others,378,0.001
+2018,Actual,Others,Others,430,0.001
+2019,Actual,Others,Others,354,0.001
+2020,Revised,Others,Others,449,0.001
+2021,Estimated,Others,Others,487,0.001
