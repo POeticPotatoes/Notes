@@ -80,9 +80,11 @@ int main()
 
 // I think it's a good idea to attempt these exercises
 // without using any of the provided functions
+// WARNING: If you copy my code for the assignment you will get smited.
 
 void moveEvenItemsToBack(LinkedList *ll)
 {
+    // WARNING: If you copy my code for the assignment you will get smited.
     // idea: keep a separate even linked list
     // start with node evenHead and end with node end
     //
