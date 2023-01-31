@@ -1,0 +1,39 @@
+	;	Main Program
+	;---------------------
+	MOV		R13, #0xFFFFFFFC
+	ADD		R13, R13, #-0x4
+	MOV 		R0, R13
+	ADD 		R13, R13, #-0x10
+	MOV		R1, #0x3
+	STR		R1, [R0]
+	MOV		R1, #0x5
+	STR		R1, [R0, #-0x4]
+	MOV		R1, #0x1
+	STR		R1, [R0, #-0x8]
+	MOV		R1, #0x9
+	STR		R1, [R0, #-0xC]
+	MOV		R1, #0x2
+	STR		R1, [R0, #-0x10]
+
+	; Calling the function
+	MOV		R1, R0
+	STR		PC, [R13, #-0x4]!
+	B			Lar
+	END
+
+	; 	Finds the largest number from an array
+	;----------------------
+Lar	MOV		R2, #0x0
+		MOV		R0, #0x80000000
+Loop	LDR		R3, [R1, R2]
+		CMP		R0, R3
+		BGE		Else
+		MOV		R0, R3
+Else	SUB		R2, R2, #4
+		CMP		R2, #-20
+		BNE		Loop
+		B			Ret
+		
+		
+
+Ret		LDR	PC, [R13], #4

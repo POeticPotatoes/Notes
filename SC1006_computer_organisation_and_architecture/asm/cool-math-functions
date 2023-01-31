@@ -1,0 +1,96 @@
+		; 	Main Program
+		;---------------------
+		MOV		R13, #0xFFFFFFFC
+		MOV		R0, #5
+		STR		R0, [R13, #-4]!
+		MOV		R0, #0xD
+		STR		R0, [R13, #-4]!
+
+		;	Calling some function
+		LDR		R1, [R13, #4]
+		LDR		R2, [R13]
+		STR		PC, [R13, #-4]!
+		B			Pow
+		END
+
+
+		;	Multiplication
+		;---------------------
+Mult	MOV		R0, #0x0
+		MOV		R3, #0x0
+		MOV		R4, #0x1
+Find	CMP 		R1, #0x0
+		BEQ		Ret
+		TST		R1, R4
+		ADD		R3, R3, #0x1
+		LSL 		R4, R4, #0x1
+		BEQ		Find
+		SUB		R5, R3, #0X1
+		ADD		R0, R0, R2, LSL R5
+		SUB		R1, R1, R4, LSR #0x1
+		B			Find
+
+
+		; 	Division with Remainder
+		;---------------------
+Div	MOV		R0, #0x0
+Red	CMP		R1, R2
+		BLT		Ret
+		SUB		R1, R1, R2
+		ADD		R0, R0, #0x1
+		B			Red
+Fin2	LDR		PC, [R13], #4
+
+
+		;	Euclidean GCD
+		;---------------------
+Gcd	CMP		R2, #0x0
+		BNE		Rec
+		MOV		R0, R1
+		B			Ret
+Rec	STR		R2, [R13, #-4]!
+		STR		PC, [R13, #-4]!
+		B			Div
+		MOV		R2, R1
+		LDR		R1, [R13], #4
+		STR		PC, [R13, #-4]!
+		B			Gcd
+		B			Ret
+
+; Equivalent C code
+; int pow(int v, int p) {
+; 	if (!p) return 1;
+; 	int ans = pow(v, p/2);
+; 	ans *= ans;
+; 	if (p&1) ans *= v;
+; 	return ans;
+;  }
+
+		;	Fast Power Algorithm (Without mod)
+		;---------------------
+Pow	CMP		R2, #0x0
+		BNE		Split
+		MOV		R0, #0x1
+		B			Ret
+Split	STR		R1, [R13, #-4]!
+		STR		R2, [R13, #-4]!
+		LSR		R2, R2, #0x1
+		STR		PC, [R13, #-4]!
+		B			Pow
+		MOV		R1, R0
+		MOV		R2, R0
+		STR		PC, [R13, #-4]!
+		B			Mult
+		LDR		R2, [R13], #4
+		LDR		R1, [R13], #4
+		TST		R2, #0x1
+		BEQ		Ret
+		MOV		R2, R0
+		STR		PC, [R13, #-4]!
+		B			Mult
+		B			Ret
+
+
+	
+
+Ret	LDR		PC, [R13], #4
