@@ -1,14 +1,10 @@
 		; 	Main Program
 		;---------------------
 		MOV		R13, #0xFFFFFFFC
-		MOV		R0, #5
-		STR		R0, [R13, #-4]!
-		MOV		R0, #0xD
-		STR		R0, [R13, #-4]!
+		MOV		R1, #0x5
+		MOV		R2, #0xD
 
 		;	Calling some function
-		LDR		R1, [R13, #4]
-		LDR		R2, [R13]
 		STR		PC, [R13, #-4]!
 		B			Pow
 		END
@@ -39,7 +35,6 @@ Red	CMP		R1, R2
 		SUB		R1, R1, R2
 		ADD		R0, R0, #0x1
 		B			Red
-Fin2	LDR		PC, [R13], #4
 
 
 		;	Euclidean GCD
@@ -48,12 +43,12 @@ Gcd	CMP		R2, #0x0
 		BNE		Rec
 		MOV		R0, R1
 		B			Ret
-Rec	STR		R2, [R13, #-4]!
-		STR		PC, [R13, #-4]!
+Rec	STR		R2, [R13, #-4]
+		STR		PC, [R13, #-8]!
 		B			Div
+		ADD		R13, R13, #4
 		MOV		R2, R1
-		LDR		R1, [R13], #4
-		STR		PC, [R13, #-4]!
+		LDR		R1, [R13, #-4]
 		B			Gcd
 		B			Ret
 
@@ -72,17 +67,19 @@ Pow	CMP		R2, #0x0
 		BNE		Split
 		MOV		R0, #0x1
 		B			Ret
-Split	STR		R1, [R13, #-4]!
-		STR		R2, [R13, #-4]!
+Split	STR		R1, [R13, #-4]
+		STR		R2, [R13, #-8]
 		LSR		R2, R2, #0x1
-		STR		PC, [R13, #-4]!
+		STR		PC, [R13, #-12]!
 		B			Pow
+		ADD		R13, R13, #8
 		MOV		R1, R0
 		MOV		R2, R0
-		STR		PC, [R13, #-4]!
+		STR		PC, [R13, #-12]!
 		B			Mult
-		LDR		R2, [R13], #4
-		LDR		R1, [R13], #4
+		ADD		R13, R13, #8
+		LDR		R1, [R13, #-4]
+		LDR		R2, [R13, #-8]
 		TST		R2, #0x1
 		BEQ		Ret
 		MOV		R2, R0
