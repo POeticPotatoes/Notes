@@ -6,12 +6,78 @@
 		;Allocate	variables and constants into data memory
 DataArea	EQU		0x00000100	;data area starts at 0x0100
 N_Size	EQU		7			;declare size of N-Array
-N_Array	DCD		0x00000010	;start of N-array, decimal (16)
-N_2		DCD		0x00000003   	;decimal (3)
+N_Array	DCD		0x00000003	;start of N-array, decimal (16)
+N_2		DCD		0x00000010  	;decimal (3)
 N_3		DCD		0xFFFFFFFF	;decimal (-1)
-N_4		DCD		0x00000003	;decimal (3)
+N_4		DCD		0xFFFFFFEE	;decimal (-18)
 N_5		DCD		0xFFFFFFFD	;decimal (-3)
 N_6		DCD		0x00000020	;decimal (32)
-N_7		DCD		0xFFFFFFEE	;decimal (-18)
+N_7		DCD		0x00000003	;decimal (3)
 		;Start	of program
-		END
+		MOV		R0, #N_Array
+		MOV		R1, #N_Size
+		BL			Bubble
+		End
+
+		; Wrapper QuickSort(r0 Arr, r1 Size)
+Quick			ADD		R1, R0, R1, LSL #2
+				SUB		R1, R1, #4
+				STR		LR, [SP, #-4]!
+				BL			QS
+				LDR		PC, [SP], #4
+
+		; 	R3 partition(r0 low, r1 high)
+Partition	 	STMFD	SP!, {R4, R5, R6, R7}
+				LDR 		R4, [R1]    		; Pivot -> R4
+				MOV		R5, R0			; j  	  -> R5
+				LDR		R6, [R0]			; arr[i] -> R6
+Compare	LDR		R7, [R5], #4	; arr[j] -> R7
+				CMP		R7, R4			; i/low -> r0
+				BGE		Cont
+				STR		R7, [R0]			; swap
+				STR		R6, [R5, #-4]
+				LDR		R6, [R0, #4]!
+				B			Cont
+Cont			CMP		R5, R1
+				BLE		Compare
+				STR		R4, [R0]
+				STR		R6, [R1]
+				MOV		R3, R0
+				LDMFD	SP!, {R4, R5, R6, R7}
+				MOV		PC, LR
+
+		;	void quickSort(r0 low, r1 high)
+QS				CMP 		R0, R1
+				BGE		Done
+				STR		LR, [SP, #-4]!
+				STMFD 	SP!, {R4, R5, R6}
+				MOV		R4, R0			; store values
+				MOV		R5, R1
+				BL			Partition
+				MOV		R6, R3
+				SUB		R1, R6, #4		
+				MOV		R0, R4			; quickSort(low, p-1)
+				BL			QS
+				ADD		R0, R6, #4		; quickSort(p+1, high)
+				MOV		R1, R5
+				BL			QS
+				LDMFD	SP!, {R4, R5, R6}
+				LDR		PC, [SP], #4
+
+Done			MOV		PC, LR
+
+		;  void BubbleSort (r0 Arr, r1 Size)
+Bubble		MOV		R4, R1
+Loop 			SUBS		R4, R4, #1
+				BLT		Done
+				MOV		R5, R0
+				MOV		R3, R1
+Swap			SUBS		R3, R3, #1
+				BEQ		Loop
+				LDR		R6, [R5]
+				LDR		R7, [R5, #4]!
+				CMP		R6, R7
+				BLE		Swap
+				STR		R7, [R5, #-4]
+				STR 		R6, [R5]
+				B			Swap

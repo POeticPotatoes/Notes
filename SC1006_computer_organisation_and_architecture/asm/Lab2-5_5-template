@@ -1,0 +1,27 @@
+STR_C	DCD		0x12345678,0xABBAABBA,0xBABACDCD,0xDEADBEEF,0x01234567,0xBADCAB00,0x00000000
+    ADR    SP, 0xFFFFFFFC
+    MOV    r0,#STR_C
+    STMFD  SP!,{r0}
+    bl    Strlen
+    LDMFD  SP!, {r0}
+    
+    END
+    
+    
+Strlen
+    STMFD  SP!,{R0-R3}
+    MOV    R1, #0
+    
+Loop
+    ADD    R1, R1, #1     ; Add 4 to the length for each non-zero word
+    LDRB    R2, [R0], #1   ; Load a 32-bit word from the string and increment the pointer
+    CMP    R2, #0         ; Check if the word is all zeroes
+    BEQ    En            ; If yes, end the loop
+    
+    B    Loop
+    
+En
+    ;ADD    R0, R0, #1
+    ;SUB    R1, R1, #4     ; Subtract 4 from the length to compensate for the last zero word
+    ;LDMFD  SP!, {R0-R3}
+    mov    pc,lr
