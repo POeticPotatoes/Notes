@@ -45,3 +45,21 @@
 * Episodic - Episode is not affected by previous taken actions
 * Static - Does not change while deliberating
 * Discrete - Limited number of distinct percepts/actions
+
+### Steps to Design an Agent
+1. Goal Formulation
+2. Problem Formulation
+    * Specification:
+        * Initial State
+        * Action Set: Available actions
+        * State Space: States accessible from initial state
+        * Goal test predicate
+        * Cost function
+    * Solution: Path from Initial State to a state that satisfies Goal-Test
+3. Search Process
+    * No knowledge -> Uniformed Search
+    * Knowledge -> Informed Search
+4. Action Execution
+
+* Search cost: time, resources to find a solution (Offline)
+* Total cost: Search cost (offline) + Execution cost (online)

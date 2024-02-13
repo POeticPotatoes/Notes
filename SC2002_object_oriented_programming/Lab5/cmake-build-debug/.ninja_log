@@ -1,0 +1,19 @@
+# ninja log v5
+0	278	7206498412812370	CMakeFiles/Lab5.dir/main.cpp.obj	a8504851578c647
+2	169	7206551223708129	CMakeFiles/Lab5.dir/Colors.cpp.obj	6f1043bd81025b
+5	270	7206550500422861	CMakeFiles/Lab5.dir/Animal.cpp.obj	d526a0dae74680a4
+6	288	7206550500607976	CMakeFiles/Lab5.dir/Zoo.cpp.obj	b829924f9d6eb0cb
+2	269	7206550500412879	CMakeFiles/Lab5.dir/childAnimal.cpp.obj	fdc46e5b08d415b2
+2	246	7206517539284021	CMakeFiles/Animal.dir/Animal.cpp.obj	7b81c2d1864e24
+1	84	7206554578885772	build.ninja	f36d8e31e742b313
+249	352	7206529029700742	Lab5.exe	415ea4dd126eb1d4
+247	356	7206517540346694	Animal.exe	3eba7b2a05eb0f4
+1	82	7206554578885772	build.ninja	f36d8e31e742b313
+6	278	7206554581810997	CMakeFiles/Lab5.dir/childAnimal.cpp.obj	fdc46e5b08d415b2
+4	284	7206554669887161	CMakeFiles/Lab5.dir/Zoo.cpp.obj	b829924f9d6eb0cb
+2	243	7206554816827773	CMakeFiles/Lab5.dir/Animal.cpp.obj	d526a0dae74680a4
+243	351	7206554817882215	Lab5.exe	4d19351cd3d4066e
+5	270	7206557198133743	CMakeFiles/Lab5.dir/childAnimal.cpp.obj	fdc46e5b08d415b2
+3	272	7206557198146143	CMakeFiles/Lab5.dir/Animal.cpp.obj	d526a0dae74680a4
+7	299	7206557198411729	CMakeFiles/Lab5.dir/Zoo.cpp.obj	b829924f9d6eb0cb
+2	106	7206557342972294	Lab5.exe	4d19351cd3d4066e

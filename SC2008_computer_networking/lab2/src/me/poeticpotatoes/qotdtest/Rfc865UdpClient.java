@@ -1,3 +1,8 @@
+/*
+ * Name: Yang iiyu
+ * Group: SCSD
+ * IP Address: 10.96.187.224
+ */
 package me.poeticpotatoes.qotdtest;
 
 import java.io.IOException;
@@ -8,8 +13,8 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 
 public class Rfc865UdpClient {
-	private static final int port=25565;
-	private static final byte[] ping = new String("iwiuwu").getBytes();
+	private static final int port=17;
+	private static final byte[] ping = new String("Yang Iiyu, SCSD, 10.96.187.244").getBytes();
 	private static InetAddress address; 
 	
 	private static DatagramSocket socket;
@@ -20,7 +25,7 @@ public class Rfc865UdpClient {
 		//
 		try {
 			socket = new DatagramSocket();
-			address = InetAddress.getByName("localhost");
+			address = InetAddress.getByName("swlab2-c.scse.ntu.edu.sg");
 		} catch (SocketException e) {
 			e.printStackTrace();
 		}
