@@ -269,3 +269,41 @@ Problems with light
 * Living organisms (diurnal rhythm)
     * Messes up animal behaviour/ reproductive success
     * Turtle :(
+
+# Waste Management
+SDG 12: Sustainable Consumption
+why is it this guy again his captions are wrong too 
+
+Stages of Consumerism
+1. 1500-1800s adoption of luxury goods
+2. 1800-1880s industrialisation, use of manufactured goods
+3. 1880-1930 surge in circulation of goods
+4. 1930-1970s access to education & employment (postwar economic consumerism)
+5. 1970-now exponential increase in consumption
+
+Stages of production/consumption chain
+1. Extraction
+2. Production
+3. Distribution
+4. Consumption
+5. Disposal
+
+Influencers of Consumption
+1. Economic
+2. Social
+3. Demographic
+4. Cultural
+5. Psychological
+
+# Sustainable Cities
+SDG 11: Sustainable Cities
+
+Doughnut Economics
+1. Social Foundation (Social inclusion, equality)
+2. Ecological Ceiling (No Ecological Overexploitation)
+
+Consider City in 4 contexts:
+1. Local
+2. Global
+3. Social
+4. Ecological
