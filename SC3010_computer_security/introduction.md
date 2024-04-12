@@ -43,16 +43,14 @@ A set of system components that MUST be trusted to ensure the security of the sy
     * Also more challenging as more entities are considered malicious
 
 ### Threat Model
-<important>
-Describing adversaries
+When describing adversaries, define: 
 1. What is (and is not) trusted
 2. For untrusted resources: 
-    * resources, 
-    * capabilities, 
-    * knowledge, 
+    * resources 
+    * capabilities
+    * knowledge 
     * actions
 3. Security Properties to achieve (Security Goals)
-</important>
 
 ### Security Properties
 Security goals that we aim to achieve for the system
