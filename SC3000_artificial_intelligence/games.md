@@ -62,6 +62,10 @@ Games are usually time-limited and have very large search spaces
     * Efficient computation
     * Consistent with utility function on terminal states
     * Accurately reflects chance of winning
+* Additional concerns
+    1. Does not give global best result (best possible state)
+    2. Assumes opponent acts rationally
+    3. Might achieve a lower score due to assumption of opponent skill
 
 ### Monte-Carlo Search Tree
 * Random search tree
