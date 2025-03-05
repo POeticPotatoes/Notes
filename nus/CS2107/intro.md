@@ -14,7 +14,7 @@
 * Defined on attacker's goals + capabilities (attack model, threat model, adversary model, security model)
 
 ## Encryption
-### Properties
+### Security Requirements
 * Correctness: $D_k(E_k(x)) = x$
 * Security:
     * Difficulty of deriving useful information of the key or plaintext from ciphertext
