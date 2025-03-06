@@ -48,11 +48,18 @@ Objectives
 
 ### Internet Protocol
 1. IP Address (IPv4: 32 bit, IPv6: 128 bit)
-2. Port number (16 bit, 1-1023 are reserved)
+2. Port number (16 bit, 1-1023 are reserved, 65535 max)
     * Internet authority IANA assigns port numbers
 
 #### TCP vs UDP
 TCP
+* Stream abstraction
+    * Data sent as a stream
+    * Connection must be first established
+    * data is sent in continuous streams (abstracted from packets)
+* Multiple Sockets
+    * Default welcome/ listening socket
+    * Forked sockets per connection
 * Connection oriented
 * Flow controlled (Prevents flooding of some server)
 * Congestion controlled (Prevents congestion)
@@ -60,6 +67,12 @@ TCP
 * Does it all
 
 UDP
+* Datagram abstraction
+    * Data set as datagrams (packets)
+* Single socket
+* Packet contains:
+    * Recipient (dest ip, port)
+    * Return (source ip, port)
 * shitter
 * fast
 
@@ -74,5 +87,59 @@ UDP
     * Uses UDP cos they're based
 
 Http Request:
-1. End of line is always \r\n
+1. method path version (Request Line) 
+2. headers: Values
+3. \r\n
+4. body
 
+Http Response:
+1. version code description
+2. headers: values
+3. \r\n
+4. body
+
+Important Codes
+Code | Meaning
+-|-
+200|OK
+301| Moved Permanently
+304| Not Modified
+403| Forbidden
+404| Not Found
+500| Internal Server Error
+
+### Addressing
+DNS: Domain Name System
+* Translates between hostname and ip address
+* Relies on DNS Resource Record, Entry types: 
+    * A(address), HostName, IP address 
+    * NS(name server), Domain, Hostname of authoritative name server
+    * CNAME(canonical name), alias, real name
+    * MX(mail exchange), domain, name of mail server
+* Contains TTL (Time to Live): refresh cooldown (revalidate)
+
+DNS Servers
+* Top-Level domain (TLD) servers:
+    * responsible for .com, .org, etc.
+    * and all countries
+* Authoritative servers:
+    * Organisation's own DNS servers
+    * Provides authoritative hostname to IP mappings for named hosts (subdomains)
+* Local DNS server (Default name server)
+    * The ISP
+* Done over UDP:53
+
+> Iterative Querying Process: Host request > Local DNS requests root DNS > Local DNS requests TLD > Local DNS requests authoritative DNS
+
+> Recursive: hot potato
+
+### Security Issues
+* DNS Hijacking (MITM): Compromise name servers
+* DNS Tunneling (VPN): Bypassing firewall
+* DNS Poisoning/ Cache Poisoning
+
+### Sockets (Ports)
+* Abstraction interface between processes and transport layer protocols
+    * Conceptual mailbox
+    * Uses API calls
+    * Sender IP address + Port is used to **locate** processes
