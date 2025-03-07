@@ -33,7 +33,7 @@ Regulate **format** and **order** of messages exchanged
 
 Objectives
 1. Data loss
-2. Timing (low ping)
+2. Timing/ Rate Tolerance (low ping)
 3. Throughput
 4. Security
 
@@ -52,7 +52,7 @@ Objectives
     * Internet authority IANA assigns port numbers
 
 #### TCP vs UDP
-TCP
+TCP (Transmission Control Protocol)
 * Stream abstraction
     * Data sent as a stream
     * Connection must be first established
@@ -66,7 +66,7 @@ TCP
 * Reliable (Guarantees order of bytes, BUT no guarantees on throughput, delay)
 * Does it all
 
-UDP
+UDP (User Datagram Protocol)
 * Datagram abstraction
     * Data set as datagrams (packets)
 * Single socket
@@ -129,7 +129,7 @@ DNS Servers
     * The ISP
 * Done over UDP:53
 
-> Iterative Querying Process: Host request > Local DNS requests root DNS > Local DNS requests TLD > Local DNS requests authoritative DNS
+> Iterative Querying Process: Host request > Local DNS requests root DNS > Local DNS requests TLD > Local DNS requests authoritative DNS > etcetc
 
 > Recursive: hot potato
 
@@ -140,6 +140,12 @@ DNS Servers
 
 ### Sockets (Ports)
 * Abstraction interface between processes and transport layer protocols
+    * Present in high-level programming languates
     * Conceptual mailbox
     * Uses API calls
-    * Sender IP address + Port is used to **locate** processes
+* Sender IP address + Port is used to **locate** processes
+* Usually stores hostname instead of numerical IP address
+
+TCP & UDP Sockets
+* TCP socket (stream socket)
+* UDP socket (datagram socket)
