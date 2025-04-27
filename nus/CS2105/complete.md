@@ -1,4 +1,11 @@
 # Internet Basics
+* telnet - HTTP connection
+* traceroute - ICMP trace of routers
+* dig - DNS query
+* nslookup - DNS query
+* ping - ICMP
+* curl - HTTP requests
+
 ## Sources of Packet Delay
 1. $d_{proc}$ processing delay
     * Check bit error
@@ -232,6 +239,7 @@ CRC: 1's complement of sum of 16 bit integers from segment
 > Official specs don't specify out of order handling
 
 > Maximum Segment Size (MSS): derived from link-layer's maximum transmission unit (MTU)
+> Maximum Transmission Unit (MTU): includes headers
 
 
 #### Header

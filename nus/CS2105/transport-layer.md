@@ -136,6 +136,7 @@ Receiver
 * if fills gap, send cumulative ACK immediately
     
 > Retransmission Time Out (RTO) value depends on estimated RTT, should be larger  
+> ACKS every 2 packets (or odd if remainder)
 
 #### Connection Establishment
 3 way handshake
