@@ -10,7 +10,7 @@
 1. $d_{proc}$ processing delay
     * Check bit error
     * Determine output link
-    * <msec
+    * < msec
 2. $d_{queue}$ queueing delay
     * wait time
     * congestion level
@@ -27,11 +27,9 @@
 ## Internet Layers
 1. Application
 2. Transport: Process to Process
-3. Network: Host to Host
+3. Network: Host to Host (Transport + Network are internet layer)
 4. Link: Device to Device
 5. Physical
-
-> Transport + Network are Internet layer
 
 ## Application Layer
 Protocols: Regulate **format** and **order** of messages exchanged
@@ -54,8 +52,7 @@ Objectives
 ### Internet Protocol
 1. IP Address (IPv4: 32 bit, IPv6: 128 bit)
 2. Port number (16 bit, 1-1023 are reserved, 65535 max)
-    * Internet authority IANA assigns port numbers
-
+    * Internet authority IANA assigns port numbers (DHCP: 68 > 67)
 
 #### HTTP Protocol
 * Uses TCP (Standard port: 80)
@@ -67,17 +64,26 @@ Objectives
 * HTTP 3:
     * Uses UDP cos they're based
 
-Http Request:
-1. method path version (Request Line) 
-2. headers: Values
-3. \r\n
-4. body
-
-Http Response:
-1. version code description
-2. headers: values
-3. \r\n
-4. body
+<table>
+  <tr>
+    <td> Http Request: </td>
+    <td> Http Response: </td>
+  </tr>
+  <tr>
+    <td><ol>
+      <li>method path version (Request Line)</li>
+      <li>headers: Values</li>
+      <li>\r\n</li>
+      <li>body</li>
+    </ol></td>
+    <td><ol>
+      <li>version code description</li>
+      <li>headers: values</li>
+      <li>\r\n</li>
+      <li>body</li>
+    </ol></td>
+  </tr>
+</table>
 
 Important Codes
 Code | Meaning
@@ -91,7 +97,6 @@ Code | Meaning
 
 ### Addressing
 DNS: Domain Name System
-* Translates between hostname and ip address
 * Relies on DNS Resource Record, Entry types: 
     * A(address), HostName, IP address 
     * NS(name server), Domain, Hostname of authoritative name server
@@ -110,10 +115,6 @@ DNS Servers
     * The ISP
 * Done over UDP:53
 
-> Iterative Querying Process: Host request > Local DNS requests root DNS > Local DNS requests TLD > Local DNS requests authoritative DNS > etcetc
-
-> Recursive: hot potato
-
 ### Security Issues
 * DNS Hijacking (MITM): Compromise name servers
 * DNS Tunneling (VPN): Bypassing firewall
@@ -131,13 +132,8 @@ TCP & UDP Sockets
 * TCP socket (stream socket)
 * UDP socket (datagram socket)
 
-# Transport Layer (RDT, TCP & UDP)
-* Resides on end-hosts
+## Transport Layer (RDT, TCP & UDP)
 * Process to process communication
-
-Protocols:
-* Sender: breaks into segments, passed to network layer
-* Receiver: reassembles segments, passed to app layer
 * Packet switches (routers): only check dest. IP
 
 ### Datagram/ Segments
@@ -156,8 +152,7 @@ Issues Addressed
 * Re-ordered
 * Delayed
 
-RDT Levels
-* RDT 2.0: Bit Errors
+RDT 2.0: Bit Errors
     * Checksum
     * ACK & NACK
 * RDT 2.1: ACK/ NACK corruption
@@ -172,17 +167,6 @@ RDT Levels
     * $\frac{n\times d_{trans}}{d_{trans}+RTT}$
     * Number of sequence numbers must be increased
     * Buffer at sender/ receiver
-* Go-Back-N
-    * Up to N unACKed packets
-    * k-bit sequence number
-    * Sliding window (once first element ACKed send new end)
-    * Timer for oldest unACKed
-    * timout(n): retransmit n and subsequent
-* Selective Repeat:
-    * all packets MUST be ACKed
-    * timer for each unACKed packet
-    * only resend unACKed
-    * packets received out of window are ignored
 
 - |Go-Back-N|Selective Repeat
 -|-|-
@@ -194,21 +178,15 @@ retransmit | all | one
 
 ## UDP (User Datagram Protocol)
 * Datagram abstraction
-    * Data set as datagrams (packets)
 * Single socket
 * Packet contains:
     * Recipient (dest ip, port)
     * Return (source ip, port)
 
 #### Algorithm
-* Adds port number
-* Adds checksum
+* Add port number
+* Add checksum
 * Used by streamers (loss tolerant, rate sensitive)
-
-Steps (transport layer)
-1. Socket with local port #
-2. Sending/ creating datagram, specify IP address and port #
-3. Receiving segment, check port in segment, direct to socket
 
 UDP header
 1-16|17-32
@@ -243,15 +221,12 @@ CRC: 1's complement of sum of 16 bit integers from segment
 
 
 #### Header
-* Src port, dest port
-* sequence number, **counted in bytes**
-* acknowledgement number, **next byte expected**
+<br><img src="tcpheader.jpg" style="width:500px;display:block;margin:auto"><br> 
 * offset (size of header in bits / 32)
 * ACK flag (whether ack num is used or not)
 * SYN flag (for setting up connection)
 * FIN flag (for closing connection)
 * Receive window (buffer)
-* Checksum
 * Options (if offset > 5)
 
 > Seq num between client and server can be diff, ie seq and ack are for different streams in same packet 
@@ -279,12 +254,6 @@ Receiver
     
 > Retransmission Time Out (RTO) value depends on estimated RTT, should be larger  
 
-#### Connection Establishment
-3 way handshake
-* Client: choose initial seq #x, sends TCP SYN
-* Server: choose initial seq #y, sends TCP SYN/ACK
-* Client: send ACK
-
 #### Connection Closing
 * Send with FIN bit
 * Can still receive (only sending connection closed),  must still send ACK
@@ -293,9 +262,69 @@ Issues
 * SYN flooding by spamming SYN
 * SYN/ACK flooding (sabotage some dude by using his return address)
 
-Estimated Moving Average (EWMA): 
+Estimated Moving Average (EWMA) to determine RTO (timeout): 
 * $RTT_\epsilon = (1-\alpha) * RTT_\epsilon + \alpha * RTT_s$  
     * $\alpha$ typically 1/8
 * $RTT_{dev} = (1-\beta) * RTT_{dev} + B * |RTT_s - RTT_\epsilon|$
     * $\beta usually 1/4$
 * $RTO = RTT\epsilon + 4*RTT_{dev}$
+
+## Network Layer
+<br><img src="IPv4_Packet-en.svg" style="width:500px;display:block;margin:auto"><br> 
+
+### IP Address, Forwarding Table (Data Plane)
+* Globally unique (Assignable with Dynamic Host Config Protocol)
+* 32 bit identifier for an **interface**
+* Uses switching fabric (nanosecond timeframe)
+* Hardware: Ternary content addressable memories (TCAMs), works in 1 clock cycle
+
+Forwarding Table: Contains Destination/ Next Hop, Interface
+
+### Routing (Control Plane)
+**Automated way** of obtaining forwarding table
+* Run by routing processor (millisecond timeframe)
+
+Current Bellman Ford Protocol: Sends changes only, better than RIP  
+Internet: Optimised Intra-AS (Autonomous System) routing vs Policy-based Inter-AS between ASs with BGP
+
+#### Link State Algorithms
+Examples: OSPF, ISIS
+* Uses dijkstra's
+* Complete knowledge
+* Periodic broadcasts of link costs
+
+#### Fragmentation
+* Same ID, different offset, flag 1 until last one
+
+## Link Layer
+Main Services: Framing, Link access control  
+Other Services: Error detection, correction, reliability (not dropped)  
+Implemented on NIC (Network Interface Card)
+
+#### Access Control
+* Random Access (No order, recover from collision)
+* Take Turns (Token Passing)
+* Channel Partitioning (Staggered time slots, TDMA)
+
+Desired properties: Collision free, Efficient (Max R), Fair (Average rate), Decentralized  
+Out-of-band channel signalling cannot exist
+
+Protocol:
+* Slotted ALOHA: Divide nodes into L/R, retransmit if fail with probability p
+    * Collisions, not efficient with multiple, fair, decentralized
+* Unslotted ALOHA: No slots
+    * Double collisions, efficient
+* CSMA: Sense if idle, no fixed size
+    * Collisions still possible
+* CSMA/CD: Shut up if noise (Declare jamming signal)
+    * Still possible, Efficient, Fair, Decentralized
+    * 2^n probability interval after n collisions
+    * Minimum frame size so that collisions can be detected ($2max(D_{prop})\leq d_{trans}$, by IEEE usually 512 bit times)
+
+#### Local Area Network (LAN)
+802.3 Ethernet Standards: MAC protocol and frame format constant
+<br><img src="ethernet_frame.png" style="width:500px;display:block;margin:auto"><br> 
+* Max size: Link MTU
+* Preamble: AA followed by AB to synchronize clocks
+* Interframe gap, no length required
+* Switch table: MAC, interface, Time To Live
