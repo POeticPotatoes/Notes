@@ -62,4 +62,7 @@ Combines both encryption + authentication
 #### Issues
 * Handshake Slo (Multiple round trips)
 * Separate from base layers of TCP (New layer: more complex, inefficient)
-* QUIC (Quick UDP Internet Connections): uses 1 RTT for new connection
+* QUIC (Quick UDP Internet Connections): uses only 1 RTT for new connection
+    1. Client: Hello, Crypto info
+    2. Server: Yo, Cert, cipher suit, key materials, fin
+    3. Client: Fin
